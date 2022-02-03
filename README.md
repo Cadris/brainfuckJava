@@ -4,6 +4,7 @@ This will be a Brainfucklanguage compiler and decompiler and hopefully a API wil
 
 This is a SpringBoot Application.
 
-Technologies used :
-Java
-Tomcat to Deploy (Locally)
+
+## Technologies used :
+- Java
+- Tomcat to Deploy (Locally)
