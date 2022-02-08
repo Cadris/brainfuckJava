@@ -1,4 +1,4 @@
-package com.sayan.brainfuck.beans;
+package com.sayan.brainfuck.services;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,7 +8,7 @@ import java.io.InputStream;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BfCompiler {
+public class BfGenarate {
 
 	private static String repeat(String s, int n) {
         StringBuilder b = new StringBuilder();
@@ -129,7 +129,7 @@ public class BfCompiler {
 //    }
     
     public String compile(String str) {
-    	return BfCompiler.generate(str);
+    	return BfGenarate.generate(str);
     }
     
 }
